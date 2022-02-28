@@ -3,10 +3,10 @@ import "./leftbar.css";
 import {
 	RssFeed,
 	Chat,
+	Person,
+	StarRate,
 	People,
 	Groups,
-	Person,
-	PostAdd,
 } from "@mui/icons-material";
 
 const Leftbar = () => {
@@ -27,8 +27,8 @@ const Leftbar = () => {
 						<span className="leftbarListItemText">Profile</span>
 					</li>
 					<li className="leftbarListItem">
-						<PostAdd className="leftbarListItemIcon"></PostAdd>
-						<span className="leftbarListItemText">Add Post</span>
+						<StarRate className="leftbarListItemIcon"></StarRate>
+						<span className="leftbarListItemText">Favourites</span>
 					</li>
 					<li className="leftbarListItem">
 						<People className="leftbarListItemIcon"></People>
