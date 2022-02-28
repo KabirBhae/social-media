@@ -25,15 +25,15 @@ const Navbar = () => {
 				<div className="topBarIcons">
 					<div className="topBarIconItem">
 						<Person></Person>
-						<span className="topBarIconItemBadge">1</span>
+						<span className="topBarIconItemBadge noselect">1</span>
 					</div>
 					<div className="topBarIconItem">
 						<Chat></Chat>
-						<span className="topBarIconItemBadge">2</span>
+						<span className="topBarIconItemBadge noselect">2</span>
 					</div>
 					<div className="topBarIconItem">
 						<Notifications></Notifications>
-						<span className="topBarIconItemBadge">1</span>
+						<span className="topBarIconItemBadge noselect">1</span>
 					</div>
 				</div>
 				<div className="topBarUserSection">
