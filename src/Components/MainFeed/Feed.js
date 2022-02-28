@@ -1,8 +1,16 @@
+// import Post from "../post/Post";
 import React from "react";
+import Share from "../Post/Post";
+import FeedContent from "../FeedContent/FeedContent";
 import "./feed.css";
 
-const Feed = () => {
-	return <div className="feed">Feed</div>;
-};
-
-export default Feed;
+export default function Feed() {
+	return (
+		<div className="feed">
+			<div className="feedWrapper">
+				<Share />
+				<FeedContent />
+			</div>
+		</div>
+	);
+}
