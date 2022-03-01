@@ -10,6 +10,8 @@ export default function Feed() {
 			<div className="feedWrapper">
 				<Share />
 				<FeedContent />
+				<FeedContent />
+				<FeedContent />
 			</div>
 		</div>
 	);

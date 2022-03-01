@@ -35,17 +35,14 @@
 	margin: 0 10px;
 }
 
-.contentDate {
-	font-size: 12px;
-}
-
 .contentCenter {
 	margin: 20px 0;
 }
 
 .contentImg {
 	margin-top: 20px;
-	width: 100%;
+	margin-left: 5%;
+	width: 90%;
 	max-height: 500px;
 	object-fit: contain;
 }
@@ -62,8 +59,8 @@
 }
 
 .likeIcon {
-	width: 24px;
-	height: 24px;
+	width: 20px;
+	height: 20px;
 	margin-right: 5px;
 	cursor: pointer;
 }

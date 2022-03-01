@@ -14,7 +14,6 @@ export default function FeedContent() {
 							alt=""
 						/>
 						<span className="contentUsername">John Cena</span>
-						<span className="contentDate">1day ago</span>
 					</div>
 					<div className="contentTopRight">
 						<MoreVert />
