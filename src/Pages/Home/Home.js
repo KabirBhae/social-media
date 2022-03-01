@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import Leftbar from "../../Components/Leftbar/Leftbar";
-import Feed from "../../Components/MainFeed/Feed";
+import Feed from "../../Components/Feed/Feed";
 import Rightbar from "../../Components/Rightbar/Rightbar";
 
 import "./home.css";
