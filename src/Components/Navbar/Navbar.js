@@ -6,7 +6,8 @@ const Navbar = () => {
 	return (
 		<div className="topBarContainer">
 			<div className="topBarLeft">
-				<span className="topBarLogo">ConnectBee</span>
+				<img src="./assets/logo.png" alt="" className="topBarLogoIcon" />
+				<span className="topBarLogoText">ConnectBee</span>
 			</div>
 			<div className="topBarCenter">
 				<div className="topsearchbar">
