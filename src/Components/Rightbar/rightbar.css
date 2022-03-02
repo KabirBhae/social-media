@@ -1,10 +1,14 @@
 .rightbar {
 	flex: 3;
-	background-color: #fff8c7;
+	height: calc(100vh - 50px);
+	/* overflow-y: scroll; */
+	position: sticky;
+	top: 50px;
 }
 .rightbarWrapper {
 	padding: 10px 10px 0 20px;
-	margin-left: 8%;
+	margin-left: 3%;
+	background-color: #fff8c7;
 }
 .rightbarTitle {
 	margin-bottom: 10px;
